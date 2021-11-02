@@ -6,7 +6,7 @@ const Login = (props) => {
 			<Nav>
 				<a href='/'>
 					<img
-						src='https://www.jobvite.com/wp-content/uploads/2020/09/linkedin-logo.png'
+						src='/images/login-logo.svg'
 						alt=''
 					/>
 				</a>
@@ -25,7 +25,7 @@ const Login = (props) => {
 				</Hero>
 				<Form>
 					<Google>
-						<img src='/images/google.png' alt='' />
+						<img src='/images/google.svg' alt='' />
 						Sign in with Google
 					</Google>
 				</Form>
@@ -48,9 +48,7 @@ const Nav = styled.nav`
 	justify-content: space-between;
 	flex-wrap: nowrap;
 
-	img {
-		width: 120%;
-	}
+	
 
 	& > a {
 		width: 135px;
@@ -182,9 +180,7 @@ const Google = styled.button`
         color: rgba(0, 0, 0, 0.75);
     }
         
-	img {
-		width: 30px;
-	}
+	
 `
 
 export default Login
